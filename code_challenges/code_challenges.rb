@@ -1,10 +1,10 @@
 # Mild Code Challenge
 
-puppy_count = 107.12
+puppy_count = 12
 
-if puppy_count.round().even? == true
+if puppy_count.even? == true
     p "even"
-elsif puppy_count.round().odd? == true
+elsif puppy_count.odd? == true
     p "odd"
 end
 
