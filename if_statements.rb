@@ -10,7 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-weather = "sunny"
+weather = "snowy"
 
 if weather == "sunny"
   p "sunscreen"
@@ -23,6 +23,7 @@ elsif weather == "icy"
 else
   p "good to go!"
 end
+
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
@@ -41,10 +42,12 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
-
+num_quarters = 4
+if num_quarters >= 2
 puts "I have enough money for a gumball"
+elsif num_quarters < 2
 puts "I don't have enough money for a gumball"
+end
 
 
 #####################
